@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Wallpaper</title>
+</head>
+<body>
+    <div>
+        <form action="http://localhost:8080/api/create" method="post">
+            <label for="username">Username:</label>
+            <input type="text" name="username" id="username" placeholder="Enter username" required><br><br>
+        
+            <label for="password">Password:</label>
+            <input type="password" name="password" id="password" placeholder="Enter password" required><br><br>
+        
+            <label for="university">University:</label>
+            <select name="university" id="university" required>
+                <option value="IIT Patna">IIT Patna</option>
+                <option value="IIT Bombay">IIT Bombay</option>
+                <option value="IIT Roorkee">IIT Roorkee</option>
+                <option value="IIT Kharagpur">IIT Kharagpur</option>
+            </select><br><br>
+        
+            <button type="submit">Submit</button>
+        </form> 
+    </div>
+
+    
+</body>
+</html>
+
+
+
+
+
